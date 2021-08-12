@@ -15,6 +15,8 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
     VerPaisComponent
   ],
 
+
+  // exportamos estos componentes para que puedan ser usados fuera de este modulo
   exports:[
     PorCapitalComponent,
     PorPaisComponent,

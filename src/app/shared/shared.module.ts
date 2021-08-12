@@ -10,6 +10,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+
+  // aqui se exporta este componente para ser usado fuera de este modulo
+  exports: [
+    SidebarComponent
+  ],
 })
 export class SharedModule { }
